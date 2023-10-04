@@ -1,0 +1,2 @@
+first make two database first called (it_project) and second called (cars)
+then import each tables inside each database belong to 

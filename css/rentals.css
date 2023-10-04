@@ -1,0 +1,64 @@
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+  }
+  
+  form {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  input[type=text] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type=submit] {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff700f;
+    color: white;
+    cursor: pointer;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  th {
+    font-size: 18px;
+    text-align: left;
+    background-color: #e3c07d ;
+    color: white;
+    padding: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  td {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 18px;
+    color: red;
+  }
+  body{
+    background:#deeaf0;
+  }

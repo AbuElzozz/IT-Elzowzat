@@ -1,0 +1,105 @@
+*  {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	}
+	body {
+	font-family: Arial, sans-serif;
+	line-height: 1.4;
+	}
+	
+	.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	}
+	
+	header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	}
+	
+	h1 {
+	font-size: 2rem;
+	text-align: center;
+	}
+	
+	.profile {
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+	}
+	
+	.profile-picture {
+	position: relative;
+	}
+	
+	.profile-picture label {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	}
+	
+	.profile-picture img {
+	display: block;
+	width: 200px;
+	height: 200px;
+	border-radius: 30%;
+	object-fit: cover;
+	}
+	
+	.profile-picture i {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #333;
+	color: #fff;
+	padding: 5px;
+	border-radius: 20%;
+	cursor: pointer;
+	}
+	
+	.profile-info h2 {
+	font-size: 2rem;
+	margin-bottom: 10px;
+	}
+	
+	.profile-info p {
+	margin-bottom: 5px;
+	}
+	
+	.profile-info p:last-child {
+	margin-bottom: 0;
+	}
+	
+	.profile-info i {
+	margin-right: 10px;
+	
+	}
+	
+	.bio h3,
+	.skills h3 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+	}
+	
+	.skills ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	}
+	
+	.skills li {
+	background-color: #f4f4f4;
+	color: #333;
+	padding: 10px 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	}
+	
+	.profile-info p:nth-last-child(1),
+	.profile-info p:nth-last-child(2) {
+	font-size: 1
+	}

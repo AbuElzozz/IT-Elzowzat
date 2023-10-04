@@ -1,0 +1,42 @@
+.carVideo{
+    padding: 29px;
+    width: 87%;
+}
+.car-videoPage-head{
+    padding-left: 50px;
+    color: #9e393a;
+    background-color: #00b842;
+    margin: -8px;
+}
+.submit{
+    background-color: #3d25dc; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.reset{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.cars-title{
+    color: #F77D0A;
+    background-color: #2B2E4A;
+    width: fit-content;
+    padding: 15px 20px 15px 5px;
+    display: block;
+}
+.car-video{
+    padding: 10px 50px;
+    color: #202761;
+    position: center;
+}
